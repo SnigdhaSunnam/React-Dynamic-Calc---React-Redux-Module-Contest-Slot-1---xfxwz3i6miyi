@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 import '../styles/App.css';
 const App = () => {
   const [num1, setNum1] = useState(0);
@@ -18,8 +18,9 @@ const App = () => {
   return (
     <div id="main">
       <input id="input1" type="number1" value= {num1}  onChange={handleNum1Change}/>
-       +
+       <br />
       <input id="input2"  type= "number2" value= {num2} onChange={handleNum2Change}/> 
+    <br />
 
     <button onClick = {handleAddition}>Add Numbers </button>
       
