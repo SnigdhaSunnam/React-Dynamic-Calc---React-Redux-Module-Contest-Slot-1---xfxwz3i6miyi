@@ -17,8 +17,11 @@ const App = () => {
 
   return (
     <div id="main">
+    <label htmlFor="input1"></label>
       <input id="input1" type="number1" value= {num1}  onChange={handleNum1Change}/>
        <br />
+    +
+    <label htmlFor="input1"></label>
       <input id="input2"  type= "number2" value= {num2} onChange={handleNum2Change}/> 
     <br />
 
